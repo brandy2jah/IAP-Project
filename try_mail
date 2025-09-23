@@ -1,0 +1,13 @@
+<?php
+require 'ClassAutoLoad.php';
+
+$mailCnt = [
+    'name_from' => 'Emily Cynthia ',
+    'mail_from' => 'kangethecynthia834@gmail.com',
+    'name_to' => 'ICS A Student',
+    'mail_to' => 'kangethecynthia834@gmail.com',
+    'subject' => 'Hello From ICS A',
+    'body' => 'Welcome to ICS A! <br> This is a new semester. Let\'s have fun together.'
+];
+
+$ObjSendMail->Send_Mail($conf, $mailCnt);
